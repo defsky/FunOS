@@ -1,0 +1,52 @@
+../FunOS/
+|-- File_list.txt
+|-- bochsout.txt
+|-- bochsrc.bxrc
+|-- boot
+|   |-- boot.asm
+|   |-- include
+|   |   |-- fat12hdr.inc
+|   |   |-- lib.inc
+|   |   |-- load.inc
+|   |   `-- pm.inc
+|   `-- loader.asm
+|-- boot.img
+|-- file_list.txt
+|-- include
+|   |-- clock.h
+|   |-- const.h
+|   |-- global.h
+|   |-- i8253.h
+|   |-- i8259.h
+|   |-- keyboard.h
+|   |-- keymap.h
+|   |-- klib.h
+|   |-- proc.h
+|   |-- protect.h
+|   |-- sconst.inc
+|   |-- syscall.h
+|   |-- tty.h
+|   |-- type.h
+|   `-- vga.h
+|-- kernel
+|   |-- clock.c
+|   |-- global.c
+|   |-- i8253.c
+|   |-- i8259.c
+|   |-- kernel.asm
+|   |-- keyboard.c
+|   |-- main.c
+|   |-- proc.c
+|   |-- protect.c
+|   |-- start.c
+|   |-- sys_call.asm
+|   |-- syscall.c
+|   |-- tty.c
+|   `-- vga.c
+|-- lib
+|   |-- klib.c
+|   |-- kliba.asm
+|   `-- string.asm
+`-- makefile
+
+5 directories, 44 files
