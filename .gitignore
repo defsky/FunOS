@@ -1,0 +1,7 @@
+*.o
+*.out
+*.bin
+*~
+ctags
+cscope.*
+*.disk

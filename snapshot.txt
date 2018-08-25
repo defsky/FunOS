@@ -1,0 +1,25 @@
+Booting  ......
+Loader OK
+Loading  .........................
+Kernel OK
+Protected Mode OK
+
+BaseAddrL BaseAddrH LengthLow LengthHig Type
+00000000h 00000000h 0009F000h 00000000h 00000001h
+0009F000h 00000000h 00001000h 00000000h 00000002h
+000E8000h 00000000h 00018000h 00000000h 00000002h
+00100000h 00000000h 01EF0000h 00000000h 00000001h
+01FF0000h 00000000h 00010000h 00000000h 00000003h
+FFFC0000h 00000000h 00040000h 00000000h 00000002h
+
+Ram size:02000000h
+Setup Paging OK
+-------------"cstart" begin------------------
+-------------"cstart"   end------------------
+-------------"kernel_main" start-----------------
+tty0#ß
+
+
+
+
+

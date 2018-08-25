@@ -85,9 +85,9 @@ kernel/debug.o:debug.c debug.h syscall.h
 
 img:$(TARGET)
 	dd if=boot/boot.bin of=$(IMG) bs=512 count=1 conv=notrunc
-	mount -o loop $(IMG) /mnt/flopy
-	cp ./boot/loader.bin ./kernel/kernel.bin /mnt/flopy
-	umount /mnt/flopy
+	sudo mount -o loop $(IMG) /mnt/flopy
+	sudo cp ./boot/loader.bin ./kernel/kernel.bin /mnt/flopy
+	sudo umount /mnt/flopy
 	@echo OS Image OK.
 clean:
 	rm -f $(TARGET) $(OBJ)
